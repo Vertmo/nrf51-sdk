@@ -16,11 +16,11 @@ file(GLOB NRF51_C_FILES
 
   "source/libraries/bootloader_dfu/*.c"
   "source/libraries/crc16/*.c"
-  "source/librairies/fds/*.c"
-  "source/librairies/fstorage/*.c"
-  "source/librairies/hci/*.c"
-  "source/librairies/scheduler/*.c"
-  "source/librairies/util/*.c"
+  "source/libraries/fds/*.c"
+  "source/libraries/fstorage/*.c"
+  "source/libraries/hci/*.c"
+  "source/libraries/scheduler/*.c"
+  "source/libraries/util/*.c"
 
   "source/softdevice/common/softdevice_handler/*.c"
 )
