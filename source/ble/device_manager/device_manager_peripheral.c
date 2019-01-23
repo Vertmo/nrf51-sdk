@@ -34,6 +34,7 @@
 #include "pstorage.h"
 #include "ble_hci.h"
 #include "app_error.h"
+#include "id_manager.h"
 
 #if defined ( __CC_ARM )
     #ifndef __ALIGN
