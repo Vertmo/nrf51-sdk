@@ -9,5 +9,10 @@ add_compile_options(
   "-mcpu=cortex-m0"
   "-DNRF51"
   "-fomit-frame-pointer"
+  "-Os"
+  "-fno-exceptions"
+  "-fno-unwind-tables"
+  "-ffunction-sections"
+  "-fdata-sections"
 )
 add_link_options("--specs=nosys.specs")
